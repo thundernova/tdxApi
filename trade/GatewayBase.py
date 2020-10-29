@@ -1,6 +1,6 @@
-from ..event.eventType import *
-from ..base.constant import *
-from .mainEngine import *
+
+from tdxApi.base.functions import *
+from tdxApi.trade.mainEngine import *
 from abc import ABC,abstractmethod
 
 class Gateway(ABC):

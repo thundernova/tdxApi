@@ -1,0 +1,14 @@
+{
+    "mktHost":"119.147.212.81",
+    "mktPort":7709,
+    "nQsid":61,
+    "tdHost":"210.13.82.31",
+    "tdPort":7708,
+    "nVersion":"8.06",
+    "nBranchID":1,
+    "nAccountType":8,
+    "sClientAccount":"06203089",
+    "sBrokerAccount":"06203089",
+    "sPassword":"111728",
+    "sTxPassword":"202009"
+}

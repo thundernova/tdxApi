@@ -1,8 +1,8 @@
 from queue import Queue
 from threading import Thread
 from collections import defaultdict
-from _queue import Empty
-from eventType import *
+from queue import Empty
+from tdxApi.event.eventType import *
 from time import sleep
 
 
