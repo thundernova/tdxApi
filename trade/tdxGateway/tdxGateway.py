@@ -1,9 +1,10 @@
-from tdxApi.trade.GatewayBase import Gateway
+from tdxApi.base.gateway import Gateway
 from tdxApi.api import TradeX2
+from tdxApi.base.functions import *
+from mdApi import TdxMdApi
+from tdApi import TdxTdApi
 import json
 import sys
-from tdxApi.base.functions import *
-
 
 class TdxGateway(Gateway):
     def __init__(self,eventEgine,gatewayName="Tdx"):

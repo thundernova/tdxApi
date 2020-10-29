@@ -6,12 +6,6 @@ from tdxApi.event.eventType import *
 from time import sleep
 
 
-class Event:
-    def __init__(self,type_=None):
-        self.type_ = type_
-        self.dict_ = {}
-
-
 class EventEngine:
     def __init__(self):
         self.__queue = Queue()
