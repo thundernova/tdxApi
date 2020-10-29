@@ -2,7 +2,7 @@ from queue import Queue
 from threading import Thread
 from collections import defaultdict
 from _queue import Empty
-import eventType
+from eventType import *
 from time import sleep
 
 
@@ -44,7 +44,7 @@ class EventEngine:
     
     def __runTimer(self):
         while self.__timerActive:
-            event = Event(type_=eventType.EVENT_TIMER)
+            event = Event(type_=EVENT_TIMER)
             self.put(event)
             sleep(self.__timerSleep)
 
