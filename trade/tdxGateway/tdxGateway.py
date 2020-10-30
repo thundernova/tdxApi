@@ -1,7 +1,7 @@
 from tdxApi.base.gateway import Gateway
 from tdxApi.api import TradeX2
 from tdxApi.base.functions import *
-from mdApi import TdxMdApi
+from mdApi import CatsMdApi
 from tdApi import TdxTdApi
 import json
 import sys
@@ -10,7 +10,7 @@ class TdxGateway(Gateway):
     def __init__(self,eventEgine,gatewayName="Tdx"):
         super(TdxGateway,self).__init__(eventEgine,gatewayName)
         
-        self.mdApi = TdxMdApi(self)
+        self.mdApi = CatsMdApi(self)
         self.tdApi = TdxTdApi(self)
 
         self.mdConnected = False

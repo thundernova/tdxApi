@@ -4,35 +4,42 @@ class TickData:
     def __init__(self):
         self.symbol = EMPTY_STRING
         self.exchange = EMPTY_STRING
+        self.vtSymbol = EMPTY_STRING
 
         self.time = EMPTY_STRING
         self.last = EMPTY_FLOAT
-        self.last_vol = EMPTY_INT
-        self.total_vol = EMPTY_INT
+        self.preClose = EMPTY_FLOAT
+        self.high = EMPTY_FLOAT
+        self.low = EMPTY_FLOAT
+        self.upperLimit = EMPTY_FLOAT
+        self.lowerLimit = EMPTY_FLOAT
+        self.curVolume = EMPTY_INT
+        self.volume = EMPTY_INT
+        self.turnover = EMPTY_FLOAT
         
-        self.bidPrice1 = EMPTY_FLOAT
-        self.bidPrice2 = EMPTY_FLOAT
-        self.bidPrice3 = EMPTY_FLOAT
-        self.bidPrice4 = EMPTY_FLOAT
-        self.bidPrice5 = EMPTY_FLOAT
-        
-        self.askPrice1 = EMPTY_FLOAT
-        self.askPrice2 = EMPTY_FLOAT
-        self.askPrice3 = EMPTY_FLOAT
-        self.askPrice4 = EMPTY_FLOAT
-        self.askPrice5 = EMPTY_FLOAT        
-        
-        self.bidVolume1 = EMPTY_INT
-        self.bidVolume2 = EMPTY_INT
-        self.bidVolume3 = EMPTY_INT
-        self.bidVolume4 = EMPTY_INT
-        self.bidVolume5 = EMPTY_INT
-        
-        self.askVolume1 = EMPTY_INT
-        self.askVolume2 = EMPTY_INT
-        self.askVolume3 = EMPTY_INT
-        self.askVolume4 = EMPTY_INT
-        self.askVolume5 = EMPTY_INT
+        self.ask_1 = EMPTY_FLOAT
+        self.ask_2 = EMPTY_FLOAT
+        self.ask_3 = EMPTY_FLOAT
+        self.ask_4 = EMPTY_FLOAT
+        self.ask_5 = EMPTY_FLOAT
+        self.askVol_1 = EMPTY_INT
+        self.askVol_2 = EMPTY_INT
+        self.askVol_3 = EMPTY_INT
+        self.askVol_4 = EMPTY_INT
+        self.askVol_5 = EMPTY_INT
+
+        self.bid_1 = EMPTY_FLOAT
+        self.bid_2 = EMPTY_FLOAT
+        self.bid_3 = EMPTY_FLOAT
+        self.bid_4 = EMPTY_FLOAT
+        self.bid_5 = EMPTY_FLOAT
+        self.bidVol_1  = EMPTY_INT
+        self.bidVol_2  = EMPTY_INT
+        self.bidVol_3  = EMPTY_INT
+        self.bidVol_4  = EMPTY_INT
+        self.bidVol_5  = EMPTY_INT
+
+        self.accer = EMPTY_FLOAT
 
 
 class BarData:
